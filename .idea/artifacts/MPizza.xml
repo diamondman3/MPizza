@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MPizza">
+    <output-path>$USER_HOME$/Desktop/mcserver/plugins</output-path>
+    <root id="archive" name="MPizza.jar">
+      <element id="module-output" name="MPizza" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>

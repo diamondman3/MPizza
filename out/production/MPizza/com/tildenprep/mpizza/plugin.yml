@@ -1,0 +1,26 @@
+name: MPizza
+main: com.tildenprep.mpizza.MPizza
+version: pepperoni
+
+commands:
+ nick:
+  description: This command allows players to be nicknamed.
+  usage: /<command> [nickname]
+  aliases: nickname
+  permission: <plugin name>.nick
+  permission-message: You don't have <permission>
+ superjump:
+  description: I wanna go to the moon!
+  usage: /<command>
+  permission: <plugin name>.superjump
+  permission-message: You don't have <permission>
+ thunderpunch:
+  description: Toggles striking lightning when a player punches.
+  usage: /<command> [on/off]
+  permission: <plugin name>.thunderpunch
+  permission-message: You don't have <permission>
+ focusblast:
+  description: Toggles a player shooting a Wither Skull when they right-click with an empty hand.
+  usage: /<command> [on/off] [player]
+  permission: <plugin name>.focusblast
+  permission-message: You don't have <permission>
